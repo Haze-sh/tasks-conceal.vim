@@ -2,7 +2,7 @@ setlocal syntax=markdown
 setlocal textwidth=88
 setlocal spell
 
-call matchadd('Conceal', '- \[ \]', 10, -1, { 'conceal': ''})
+call matchadd('Conceal', '- \[ \]', 10, -1, { 'conceal': ''})
 call matchadd('Conceal', '- \[x\]', 10, -1, { 'conceal': ''})
 call matchadd('Conceal', '- \[?\]', 10, -1, { 'conceal': ''})
 call matchadd('Conceal', '- \[!\]', 10, -1, { 'conceal': ''})
